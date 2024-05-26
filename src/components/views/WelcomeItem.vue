@@ -1,6 +1,7 @@
 <template>
   <header>
     <ul type="none">
+      <li><RouterLink></RouterLink></li>
       <li><a href="#"><Icon icon="bx:box" width="1.2em" height="1.2em"  style="color: white" />Projects</a></li>
       <li><a target="_blank" href="https://github.com/deccox"><Icon icon="ri:github-fill" width="1.2em" height="1.2em"  style="color: white" />Github</a></li>
       <li><a target="_blank" href="https://www.instagram.com/kaynbit"><Icon icon="skill-icons:instagram" width="1.2em" height="1.2em" />insta</a></li>

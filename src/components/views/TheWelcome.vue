@@ -5,7 +5,7 @@
     </div>
     <div  class="pattern" id="img_description">
       <div id="img_background">
-        <img width="700" src="../assets/def.png" alt="">
+        <img width="700" src="../../assets/def.png">
       </div>
       
     </div>
@@ -14,7 +14,7 @@
 
 
 <script>
-import '../assets/def.png'
+import '../../assets/def.png'
 </script>
 
 
