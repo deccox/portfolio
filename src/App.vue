@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div>
+    <div id="header-main">
       <header>
         <ul type="none">
           <li><RouterLink to="/"><Icon icon="bx:box" width="1.2em" height="1.2em"  style="color: white" />Home</RouterLink></li>
@@ -24,7 +24,6 @@ export default {
   components: {
     Icon // Register Icon component
   },
-  props: ["foo"],
   data(){
     return{
     }
@@ -35,6 +34,13 @@ export default {
 
 
 <style scoped>
+
+li a, li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
 
 main{
   background-color: #051917;
@@ -47,7 +53,7 @@ main{
   align-items: center;
 }
 
-div{
+#header-main{
   margin: 10px;
   max-width: 1220px;
   width: 100%;

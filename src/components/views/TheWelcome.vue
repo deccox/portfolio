@@ -7,7 +7,6 @@
       <div id="img_background">
         <img width="700" src="../../assets/def.png">
       </div>
-      
     </div>
   </div>
 </template>
